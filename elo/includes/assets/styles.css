@@ -1,0 +1,41 @@
+/* Target the entire table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Adjust as needed */
+  background-color: blue;
+}
+
+/* Style the table header */
+table thead th {
+  background-color: #f1f1f1;
+}
+
+/* Style the table rows */
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Style the table cells */
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Style the action links */
+table a {
+  text-decoration: none;
+  color: #0073aa;
+}
+
+table a:hover {
+  color: #0095dd;
+}
+
+h2 {
+  font-size: 1rem;
+}
